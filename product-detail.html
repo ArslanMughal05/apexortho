@@ -1,0 +1,3433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Product Detail</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.png" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/linearicons-v1.0.0/icon-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/MagnificPopup/magnific-popup.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+</head>
+
+<body class="animsition">
+
+	<!-- whatsapp Icon -->
+	<div class="whatsapp_float">
+		<a href="https://wa.me/+923054915209" target="_blank"><img src="images/icons/whatsapp.png" width="50px"
+				class="whatsapp_float_btn" /></a>
+	</div>
+	<style>
+		.whatsapp_float {
+			position: fixed;
+			bottom: 40px;
+			right: 30px;
+			/* border-radius: 50%;
+			background-color: #25d366;
+			padding: 10px; */
+			/* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+			z-index: 999;
+		}
+	</style>
+
+	<!-- Header -->
+	<header class="header-v4">
+		<!-- Header desktop -->
+		<div class="container-menu-desktop">
+
+			<div class="wrap-menu-desktop how-shadow1">
+				<nav class="limiter-menu-desktop container">
+
+					<!-- Logo desktop -->
+					<a href="index.html" class="logo">
+						<img src="images/icons/logo-01.png" alt="IMG-LOGO">
+					</a>
+
+					<!-- Menu desktop -->
+					<div class="menu-desktop">
+						<ul class="main-menu">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+
+							<li>
+								<a href="product.html">Shop</a>
+							</li>
+
+							<li>
+								<a href="product.html">Categoties</a>
+								<ul class="sub-menu">
+									<li><a href="Medical & Surgical Instruments.html">Medical & Surgical Instruments</a>
+									</li>
+
+								</ul>
+							</li>
+
+							<li>
+								<a href="blog.html">Blog</a>
+							</li>
+
+							<li>
+								<a href="about.html">About</a>
+							</li>
+
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Icon header -->
+					<div class="wrap-icon-header flex-w flex-r-m">
+						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
+							<i class="zmdi zmdi-search"></i>
+						</div>
+
+						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
+							data-notify="2">
+							<i class="zmdi zmdi-shopping-cart"></i>
+						</div>
+
+						<a href="#" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti"
+							data-notify="0">
+							<i class="zmdi zmdi-favorite-outline"></i>
+						</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<!-- Header Mobile -->
+		<div class="wrap-header-mobile">
+			<!-- Logo moblie -->
+			<div class="logo-mobile">
+				<a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
+			</div>
+
+			<!-- Icon header -->
+			<div class="wrap-icon-header flex-w flex-r-m m-r-15">
+				<div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
+					<i class="zmdi zmdi-search"></i>
+				</div>
+
+				<div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart"
+					data-notify="2">
+					<i class="zmdi zmdi-shopping-cart"></i>
+				</div>
+
+				<a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti"
+					data-notify="0">
+					<i class="zmdi zmdi-favorite-outline"></i>
+				</a>
+			</div>
+
+			<!-- Button show menu -->
+			<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</div>
+		</div>
+
+			<!-- Menu Mobile -->
+			<div class="menu-mobile">
+				<ul class="main-menu-m">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+	
+					<li>
+						<a href="product.html">Shop</a>
+					</li>
+	
+					<li>
+						<a href="product.html">Categoties</a>
+						<ul class="sub-menu-m">
+							<li><a href="Medical & Surgical Instruments.html">Medical & Surgical Instruments</a>
+							</li>
+						</ul>
+						<span class="arrow-main-menu-m">
+							<i class="fa fa-angle-right" aria-hidden="true"></i>
+						</span>
+					</li>
+	
+					<li>
+						<a href="blog.html">Blog</a>
+					</li>
+	
+					<li>
+						<a href="about.html">About</a>
+					</li>
+	
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+
+		<!-- Modal Search -->
+		<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+			<div class="container-search-header">
+				<button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
+					<img src="images/icons/icon-close2.png" alt="CLOSE">
+				</button>
+
+				<form class="wrap-search-header flex-w p-l-15">
+					<button class="flex-c-m trans-04">
+						<i class="zmdi zmdi-search"></i>
+					</button>
+					<input class="plh3" type="text" name="search" placeholder="apexortho...">
+				</form>
+			</div>
+		</div>
+	</header>
+
+
+	<!--/////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+
+	<!-- Product Detail -->
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/Product1- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product1- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product1- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="item-slick3" data-thumb="images/P1- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/P1- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/P1- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="item-slick3" data-thumb="images/P2- ApexOrtho.jpg">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/P2- ApexOrtho.jpg" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/P2- ApexOrtho.jpg">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							Locking pilon plate
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							Temporary fixation of fractures, osteotomies, nonunions and malunions of the distal
+							articular fractures of the tibia (pilon fractures) with emphasis on complex articular
+							reconstruction.
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+
+						<li class="nav-item p-b-10">
+							<a class="nav-link" data-toggle="tab" href="#information" role="tab">Additional
+								information</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									The Pilon Plate is placed on the anterior, medial, anteromedial, or anterolateral
+									distal tibia to create a fixed-angle construct that improves fixation in osteopenic
+									bone and multifragment fractures. Part of the LCP system, the plate merges locking
+									screw technology with conventional plating techniques.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+
+						<!-- - -->
+						<div class="tab-pane fade" id="information" role="tabpanel">
+							<div class="row">
+								<div class="col-sm-10 col-md-8 col-lg-6 m-lr-auto">
+									<ul class="p-lr-28 p-lr-15-sm">
+										<li class="flex-w flex-t p-b-7">
+											<span class="stext-102 cl3 size-205">
+												DESCRIPTION
+											</span>
+
+											<span class="stext-102 cl6 size-206">
+												3.5MM PILON PLATE 7 HOLES
+											</span>
+										</li>
+
+										<li class="flex-w flex-t p-b-7">
+											<span class="stext-102 cl3 size-205">
+												DESCRIPTION
+											</span>
+
+											<span class="stext-102 cl6 size-206">
+												3.5MM LCP™ PILON PLATE 9 HOLES
+											</span>
+										</li>
+
+										<li class="flex-w flex-t p-b-7">
+											<span class="stext-102 cl3 size-205">
+												PRODUCT D.
+											</span>
+
+											<span class="stext-102 cl6 size-206">
+												BENDING TEMPLATE FOR 3.5MM PILON PLATES
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/P3- ApexOrtho.webp">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/P3- ApexOrtho.webp" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/P3- ApexOrtho.webp">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product2- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product2- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product2- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product10- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product10- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product10- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							Mini Locking Fragment Plating System
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							Mini Fragment plating system features a complete range of low profile plate and screw
+							options in 2.0mm, 2.4mm and 2.7mm modules.
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									Locking plates are offered in straight, T, Y, and triangle plate options. T-plates are offered in 5 and 10-holes lengths, and Y and Triangle plates are offered in 10-hole options. The top side of the plates always feature a circumferential chamfer. <br> 2,4 MM MINI T LOCKING PLATE (3 HOLES HEAD), Temporary fixation of fractures, osteotomies, nonunions, replantations, and fusions of small bones and small bone fragments.
+								</p>
+
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/Product3- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product3- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product3- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product4- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product4- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product4- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product5- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product5- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product5- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product6- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product6- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product6- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product8- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product8- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product8- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							Wise Lock Proximal Radius Plate
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							We are engaged in Offering wide range of Quality Products to our Clients, our Range of
+							Products are really appreciated by our client.
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									Assure Enterprises Titanium 2.4mm Wise Lock Proximal Radius Plate For Radial Head Rim Left, For Orthopedic Surgery. (2). Locking plate increases construct stability, decreases risk of screw back-out and subsequent loss of reduction. (3). Plates available holes are 3 hole in 100°, 3 hole in 110°, 4 hole in 120°, 3, 5, 7 hole in 130° and 3 hole in 150°. Plate has combi holes and round holes. (4). 3.5mm- Wise Lock Pediatric Hip PlateType-II Plates available holes are 3 hole in 100°, 3 hole in 110°, 4 hole in 120°, 3, 5, 7 hole in 130° and 3 hole in 150°.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/Product7- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product7- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product7- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							3-5mm- lcp philos short plate
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							We are engaged in Offering wide range of Quality Products to our Clients, our Range of
+							Products are really appreciated by our client.
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									hilos system is an anatomical lcp plating system for proximal hummers fracture
+									fixation. it includes the philos® percutaneous aiming system, for a less invasive
+									tran deltoid approach.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/Product9- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product9- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product9- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/P4- ApexOrtho.jpg">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/P4- ApexOrtho.jpg" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/P4- ApexOrtho.jpg">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							4.5mm- Proksimal Tibia Lateral
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							The proximal portion of the plate is anatomically contoured to approximate the lateral
+							profile of the proximal tibia.
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									The indications for this 4.5mm plate system are for proximal tibia fractures including lateral splits, depressions, bicondylar splits, medial splits and dissociation from the shaft. It enables a fixed-angle construct in the metaphysis while providing the flexibility of axial compression and locking capability
+									throughout the length of the plate shaft. The head of the plate is anatomically pre-curved.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/Product11- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product11- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product11- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product13- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product13- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product13- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product19- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product19- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product19- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product14- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product14- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product14- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							Bone Plates - Non Locking Products
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							Straight & Curved Reconstruction Plates in various Products.
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									Straight Reconstruction Plates- 3.5mm Screws. (2). All Varieties are Available at ApexOrtho.  (3). The comprehensive solution for pelvic fracture fixation.Pelvic Reconstruction Plate System are intended for pelvic and acetabular reconstructive surgery. Additional implant tray for Low Profile 3.5 Reconstruction J-Plate Set. J-Plates are precontoured to fit the pelvic brim. <br> (4). This is implant of choice for fix of forearm and may be also used for distal humeral fractures and the clavicle.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/Product15- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product15- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product15- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product16- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product16- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product16- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							Screw for Cervical All Type Of Spine
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							All Type Of Bone Screws Are Available
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									(1). Fixed or Variable <br>(2). Self-drilling or Self-tapping <br>(3). Cortical screws are frequently used in operations like fracture fixation, where solid fixation of bone fragments is critical for optimal healing. Cortical screws are favoured in locations with high bone density, such as the femur, whereas cancellous screws are better suited in areas with low bone density, such as the vertebrae.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/Product22- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product22- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product22- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product23- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product23- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product23- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product24- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product24- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product24- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							Locking Clavicle Hook Plates Specification
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							Plates available holes are 4, 5, 6, 7 and 8. Plates available for Left and Right both direction
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									A complete Instruments Set is available for 3.5 mm Locking Clavicle Hook Plates. General Instruments are available for this plate such as Plate Bending Press, Plate Holding Forceps, Plate Bending Pliers, Bone Holding Forceps, Bone Elevators, Bone Cutter, Bone Nibbler, Depth Gauge, Sleeve, Screw Driver, Trocar Sleeve etc.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/Product26- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product26- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product26- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product31- ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product31- ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product31- ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							MT Calcaneal Locking Plate
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							MT Calcaneal Locking Plate is used for fractures comminuted with more than three fracture lines in the posterior facet according to Sanders Classifications.
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									Closed-box perimeter design provides strong fixation support.<br>Rounded frame and 2.0 mm thickness design help minimize soft tissue irritation. <br>Pre-contoured anatomical design with screw trajectories corresponding to the anatomy of the calcaneus.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/Product33- ApexOrtho.webp">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product33- ApexOrtho.webp" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product33- ApexOrtho.webp">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product34- ApexOrtho.webp">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product34- ApexOrtho.webp" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product34- ApexOrtho.webp">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/Product35- ApexOrtho.jpg">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/Product35- ApexOrtho.jpg" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/Product35- ApexOrtho.jpg">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							Doctor & Surgical Uniforme & Suites Are Available
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							We are engaged in Offering wide range of Quality Products to our Clients, our Range of Products are really appreciated by our client
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									All Types Of Surgical Suites Are Available at ApexOrtho. <br>Winter Collections & Summer Collections <br>If You Get Best Stuf In Any type of uniforme, you are in right place.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product2-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product2-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product2-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product3-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product3-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product3-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product4-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product4-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product4-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product5-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product5-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product5-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product6-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product6-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product6-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product7-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product7-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product7-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product8-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product8-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product8-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							Surgical Scissors - All Type Of Products
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							Surgeons use surgical scissors during an operation in order to cut tissues at the surface or inside the human body. The blades can be either curved or straight. 
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									These are available in two forms such as curved or straight. These are also known as Suture Scissors. <br>Different procedures and settings require a functional instrument. This type of Mayo Scissors is used to dissect the tissues present in the body or on the surfaces. But it totally depends on the surgeons whether they use straight or curved as per the need of the operation or the preferences. It comes in different lengths, sizes, and blunt tips. <br>It is also known as “Metz” which serves the purpose of cutting and dissecting. Mostly they are present as curved types. <br><br>Scissors are considered as cutting equipment in the surgical field as these have blades and sharp working ends. You can find out the quality scissors at ApexOrtho.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product9-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product9-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product9-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product10-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product10-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product10-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product11-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product11-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product11-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product12-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product12-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product12-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product13-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product13-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product13-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product14-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product14-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product14-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Product/Product15-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Product/Product15-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Product/Product15-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							Surgical Blades - All Type Of Products
+						</h4>
+
+						<span class="mtext-106 cl2">
+							$58.79
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							Surgeons use surgical blades during an operation in order to cut tissues at the surface or inside the human body. The blades can be either curved or straight. 
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Side
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Right</option>
+											<option>Left</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									Medical surgical blades are kind of tools that are often used in hospitals to perform surgery on patients. The disinfection of these tools is a priority to ensure that patients do not have local infections and complications. <br>Surgical Blades are considered as cutting equipment in the surgical field as these have blades and sharp working ends. You can find out the quality scissors at ApexOrtho.
+								</p>
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product1-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product1-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product1-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product2-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product2-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product2-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product3-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product3-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product3-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							EXTRACTING FORCEPS
+						</h4>
+
+						<span class="mtext-106 cl2">
+							Prise will be uploading soon!
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							Dental extraction forceps can actually be thought of as two first-class levers, connected with a hinge. 
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Size
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>ALL Sizes are available</option>
+											<option></option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									During tooth extractions, dental forceps are used to firmly grip the tooth's crown or root and apply controlled force to loosen and remove it from the socket. They come in various shapes and sizes to accommodate different tooth types and anatomical variations. We are exporting all type of dental Products.
+								</p>
+
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product4-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product4-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product4-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product5-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product5-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product5-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product6-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product6-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product6-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product7-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product7-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product7-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product8-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product8-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product8-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							SCALERS
+						</h4>
+
+						<span class="mtext-106 cl2">
+							Prise will be uploading soon!
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							instruments that come in use for removing subgingival and supragingival plaque and calculus from the surfaces of teeth and roots. 
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Size
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>ALL Sizes are available</option>
+											<option></option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									A scaler is used to remove the plaque and tartar that are left behind. It looks sort of like a long metal stick that is bent at one end. Like the sickle probe, a scaler doesn't feel entirely comfortable, but it should not cause much actual pain. We are exporting all type of dental Products.
+								</p>
+
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7 p-b-30">
+					<div class="p-l-25 p-r-30 p-lr-0-lg">
+						<div class="wrap-slick3 flex-sb flex-w">
+							<div class="wrap-slick3-dots"></div>
+							<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+							<div class="slick3 gallery-lb">
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product16-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product16-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product16-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product17-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product17-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product17-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product18-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product18-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product18-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product19-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product19-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product19-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+								<div class="item-slick3" data-thumb="images/ApexOrtho Dental/Product20-ApexOrtho.png">
+									<div class="wrap-pic-w pos-relative">
+										<img src="images/ApexOrtho Dental/Product20-ApexOrtho.png" alt="IMG-PRODUCT">
+
+										<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+											href="images/ApexOrtho Dental/Product20-ApexOrtho.png">
+											<i class="fa fa-expand"></i>
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-5 p-b-30">
+					<div class="p-r-50 p-t-5 p-lr-0-lg">
+						<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+							Dental Kits
+						</h4>
+
+						<span class="mtext-106 cl2">
+							Prise will be uploading soon!
+						</span>
+
+						<p class="stext-102 cl3 p-t-23">
+							A wide variety of dental kits are available, and if you buy one, you are better off with a simple oral care kit.  
+						</p>
+
+						<!--  -->
+						<div class="p-t-33">
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Material
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>Titanium</option>
+											<option>Stainless Steel</option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-203 flex-c-m respon6">
+									Size
+								</div>
+
+								<div class="size-204 respon6-next">
+									<div class="rs1-select2 bor8 bg0">
+										<select class="js-select2" name="time">
+											<option>Choose an option</option>
+											<option>ALL Kits are available</option>
+											<option></option>
+										</select>
+										<div class="dropDownSelect2"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="flex-w flex-r-m p-b-10">
+								<div class="size-204 flex-w flex-m respon6-next">
+									<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+										<input class="mtext-104 cl3 txt-center num-product" type="number"
+											name="num-product" value="1">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+
+									<button
+										class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+										Add to cart
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+							<div class="flex-m bor9 p-r-10 m-r-11">
+								<a href="#"
+									class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+									data-tooltip="Add to Wishlist">
+									<i class="zmdi zmdi-favorite"></i>
+								</a>
+							</div>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Twitter">
+								<i class="fa fa-twitter"></i>
+							</a>
+
+							<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+								data-tooltip="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bor10 m-t-50 p-t-43 p-b-40">
+				<!-- Tab01 -->
+				<div class="tab01">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item p-b-10">
+							<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content p-t-43">
+						<!-- - -->
+						<div class="tab-pane fade show active" id="description" role="tabpanel">
+							<div class="how-pos2 p-lr-15-md">
+								<p class="stext-102 cl6">
+									Dental instruments are tools that dental professionals use to provide dental treatment. They include tools to examine, manipulate, treat, restore, and remove teeth and surrounding oral structures. Mouth mirror, a commonly used dental instrument. We are exporting all type of dental Products.
+								</p>
+
+								<br><br><center><a href="#" style="color: black; text-decoration: underline; font-weight: bold;">ApexOrtho!</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+	<!-- Footer -->
+	<footer class="bg3 p-t-75 p-b-32">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-3 p-b-50">
+					<h4 class="stext-301 cl0 p-b-30">
+						Our Services
+					</h4>
+
+					<ul>
+						<li class="p-b-10">
+							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+								Bone Plate
+							</a>
+						</li>
+
+						<li class="p-b-10">
+							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+								Bone Screws
+							</a>
+						</li>
+
+						<li class="p-b-10">
+							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+								Bone Screws Titanium
+							</a>
+						</li>
+
+						<li class="p-b-10">
+							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+								Titanium Plates
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-6 col-lg-3 p-b-50">
+					<h4 class="stext-301 cl0 p-b-30">
+						Help
+					</h4>
+
+					<ul>
+						<li class="p-b-10">
+							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+								Privacy policy
+							</a>
+						</li>
+
+						<li class="p-b-10">
+							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+								Support
+							</a>
+						</li>
+
+						<li class="p-b-10">
+							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+								Terms & conditions
+							</a>
+						</li>
+
+						<li class="p-b-10">
+							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+								FAQs
+							</a>
+						</li>
+
+						<li class="p-b-10">
+							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+								Shipping Policy
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-6 col-lg-3 p-b-50">
+					<h4 class="stext-301 cl0 p-b-30">
+						GET IN TOUCH
+					</h4>
+
+					<p class="stext-107 cl7 size-201">
+						For swift support and inquiries regarding our orthopedic instruments, use our Quick Contact
+						form.
+						Your satisfaction is our priority.
+					</p>
+
+					<div class="p-t-27">
+						<a href="https://www.facebook.com/profile.php?id=61558730751446&mibextid=LQQJ4d" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+							<i class="fa fa-facebook"></i>
+						</a>
+
+						<a href="https://www.instagram.com/apexortho_01/" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+							<i class="fa fa-instagram"></i>
+						</a>
+
+						<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+							<i class="fa fa-pinterest-p"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-3 p-b-50">
+					<h4 class="stext-301 cl0 p-b-30">
+						Contact Us
+					</h4>
+
+					<form>
+						<div class="wrap-input1 w-full p-b-4">
+							<input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email"
+								placeholder="sales@apexortho.ltd">
+							<div class="focus-input1 trans-04"></div>
+						</div>
+
+						<div class="p-t-18">
+							<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+								Contact
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="p-t-40">
+				<div class="flex-c-m flex-w p-b-18">
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-01.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-02.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-03.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-04.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-05.png" alt="ICON-PAY">
+					</a>
+				</div>
+
+				<p class="stext-107 cl6 txt-center">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> All rights reserved <u>ApexOrtho</u> |
+					Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <b>ARSLAN</b>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="zmdi zmdi-chevron-up"></i>
+		</span>
+	</div>
+
+	<!-- Modal1 -->
+	<div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
+		<div class="overlay-modal1 js-hide-modal1"></div>
+
+		<div class="container">
+			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+				<button class="how-pos3 hov3 trans-04 js-hide-modal1">
+					<img src="images/icons/icon-close.png" alt="CLOSE">
+				</button>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-7 p-b-30">
+						<div class="p-l-25 p-r-30 p-lr-0-lg">
+							<div class="wrap-slick3 flex-sb flex-w">
+								<div class="wrap-slick3-dots"></div>
+								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+								<div class="slick3 gallery-lb">
+									<div class="item-slick3" data-thumb="images/product-detail-01.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+												href="images/product-detail-01.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="item-slick3" data-thumb="images/product-detail-02.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-detail-02.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+												href="images/product-detail-02.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+
+									<div class="item-slick3" data-thumb="images/product-detail-03.jpg">
+										<div class="wrap-pic-w pos-relative">
+											<img src="images/product-detail-03.jpg" alt="IMG-PRODUCT">
+
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
+												href="images/product-detail-03.jpg">
+												<i class="fa fa-expand"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+								Lightweight Jacket
+							</h4>
+
+							<span class="mtext-106 cl2">
+								$58.79
+							</span>
+
+							<p class="stext-102 cl3 p-t-23">
+								Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat
+								ornare feugiat.
+							</p>
+
+							<!--  -->
+							<div class="p-t-33">
+								<div class="flex-w flex-r-m p-b-10">
+									<div class="size-203 flex-c-m respon6">
+										Size
+									</div>
+
+									<div class="size-204 respon6-next">
+										<div class="rs1-select2 bor8 bg0">
+											<select class="js-select2" name="time">
+												<option>Choose an option</option>
+												<option>Size S</option>
+												<option>Size M</option>
+												<option>Size L</option>
+												<option>Size XL</option>
+											</select>
+											<div class="dropDownSelect2"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="flex-w flex-r-m p-b-10">
+									<div class="size-203 flex-c-m respon6">
+										Color
+									</div>
+
+									<div class="size-204 respon6-next">
+										<div class="rs1-select2 bor8 bg0">
+											<select class="js-select2" name="time">
+												<option>Choose an option</option>
+												<option>Red</option>
+												<option>Blue</option>
+												<option>White</option>
+												<option>Grey</option>
+											</select>
+											<div class="dropDownSelect2"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="flex-w flex-r-m p-b-10">
+									<div class="size-204 flex-w flex-m respon6-next">
+										<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+												<i class="fs-16 zmdi zmdi-minus"></i>
+											</div>
+
+											<input class="mtext-104 cl3 txt-center num-product" type="number"
+												name="num-product" value="1">
+
+											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+												<i class="fs-16 zmdi zmdi-plus"></i>
+											</div>
+										</div>
+
+										<button
+											class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+											Add to cart
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<!--  -->
+							<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+								<div class="flex-m bor9 p-r-10 m-r-11">
+									<a href="#"
+										class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100"
+										data-tooltip="Add to Wishlist">
+										<i class="zmdi zmdi-favorite"></i>
+									</a>
+								</div>
+
+								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+									data-tooltip="Facebook">
+									<i class="fa fa-facebook"></i>
+								</a>
+
+								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+									data-tooltip="Twitter">
+									<i class="fa fa-twitter"></i>
+								</a>
+
+								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100"
+									data-tooltip="Google Plus">
+									<i class="fa fa-google-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function () {
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+		})
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/slick/slick.min.js"></script>
+	<script src="js/slick-custom.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/parallax100/parallax100.js"></script>
+	<script>
+		$('.parallax100').parallax100();
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+	<script>
+		$('.gallery-lb').each(function () { // the containers for all your galleries
+			$(this).magnificPopup({
+				delegate: 'a', // the selector for gallery item
+				type: 'image',
+				gallery: {
+					enabled: true
+				},
+				mainClass: 'mfp-fade'
+			});
+		});
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/sweetalert/sweetalert.min.js"></script>
+	<script>
+		$('.js-addwish-b2, .js-addwish-detail').on('click', function (e) {
+			e.preventDefault();
+		});
+
+		$('.js-addwish-b2').each(function () {
+			var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+			$(this).on('click', function () {
+				swal(nameProduct, "is added to wishlist !", "success");
+
+				$(this).addClass('js-addedwish-b2');
+				$(this).off('click');
+			});
+		});
+
+		$('.js-addwish-detail').each(function () {
+			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+
+			$(this).on('click', function () {
+				swal(nameProduct, "is added to wishlist !", "success");
+
+				$(this).addClass('js-addedwish-detail');
+				$(this).off('click');
+			});
+		});
+
+		/*---------------------------------------------*/
+
+		$('.js-addcart-detail').each(function () {
+			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+			$(this).on('click', function () {
+				swal(nameProduct, "is added to cart !", "success");
+			});
+		});
+
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script>
+		$('.js-pscroll').each(function () {
+			$(this).css('position', 'relative');
+			$(this).css('overflow', 'hidden');
+			var ps = new PerfectScrollbar(this, {
+				wheelSpeed: 1,
+				scrollingThreshold: 1000,
+				wheelPropagation: false,
+			});
+
+			$(window).on('resize', function () {
+				ps.update();
+			})
+		});
+	</script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
